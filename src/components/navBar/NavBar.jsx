@@ -16,8 +16,7 @@ const NavBar = () => {
         <li><a href="" target='_blank'>Pricing</a></li>
       </ul>
       <div className="nav-right">
-        <Link to="/Vote" className='btn-wbg' >Log In</Link>
-        <Link to="/Vote" className='btn' >Sign Up</Link>
+        <Link to="/Vote" className='btn' >Create Ballot</Link>
       </div>
     </nav>
   )
