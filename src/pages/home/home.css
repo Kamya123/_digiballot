@@ -1,0 +1,210 @@
+.main_header {
+    width: 100vw;
+    /* height: calc(100vh - 3rem); */
+    display: grid;
+    place-items: center;
+    position: relative;
+    /* margin-top: 2rem; */
+}
+
+.main_header-container {
+    height: 100%;
+    margin-right: 6rem;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.main_header-right {
+    margin-top: -3rem;
+    width: 30%;
+}
+
+.main_header-right p {
+    margin: 1rem 0 3.5rem;
+    color: var(--heading-color);
+}
+
+.main_header-left {
+    /* display: grid;
+    place-items: center; */
+    position: relative;
+    width: 70%;
+}
+
+.main_header-image{
+    position: relative;
+}
+
+.main_header-left:hover .main_header-circle {
+    filter: blur(15px);
+}
+
+/* .header-1 {
+    height: 100vh;
+} */
+
+/* .hero_img {
+    width: 90%;
+} */
+
+
+
+.header-2 {
+    height: 100%;
+    padding-left: 8rem;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    position: relative;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    /* background: #9deeff45; */
+}
+
+.header-2 > .main_header-left {
+    width: 65%;
+    padding-left: 4rem;
+}
+
+.header-2 > .main_header-right {
+    margin-right: 0;
+    width: 35%;
+    margin-top: 2rem;
+}
+
+.header-2 img {
+    width: 90%;
+}
+
+.quarter_img {
+    position: absolute;
+    z-index: -1;
+    width: 25%;
+    right: 0;
+    top: 22.8rem;
+}
+
+
+
+
+/* FEATURES SECTION CSS */
+.features {
+    position: relative;
+    /* margin-top: 0;
+    height: 90vh;
+    background: #eef7ff; */
+}
+
+
+.features > img {
+    position: relative;
+    width: 100%; /* Make sure the image covers the entire container */
+    height: auto; /* Keep the image's aspect ratio */
+}
+
+.features_container {
+    position: absolute;
+    top: 0;
+}
+
+.features_contains {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    /* margin-top: 4rem; */
+    padding: 6rem;
+    padding-top: 3rem;
+}
+
+.card.features_feature {
+    padding: 2rem;
+    text-align: left;
+    position: relative;
+}
+
+.card.features_feature span {
+    position: absolute;
+    top: -1.5rem;
+}
+
+
+
+
+
+
+/* NAVBAR CSS */
+
+/* nav {
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    background: #171717;
+    border-bottom: 1px solid #40404070;
+    align-items: center;
+    padding: 0 4rem;
+    justify-content: space-between;
+}
+
+#logo {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: bold;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+
+#nav-right-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid #737373a3;
+    border-radius: 5px;
+    padding: 0.3rem 0.5rem;
+    color: #f5f5f5;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+} */
+
+
+
+
+/* HERO PART - HOME PAGE CSS */
+
+/* #hero {
+    background: #171717;
+    padding: 1.5rem 4rem;
+    height: 80%;
+    width: 100%;
+}
+
+#hero-left {
+    width: 16%;
+    border: 1px solid #7373731a;
+    height: 30rem;
+    border-radius: 5px;
+    background: #40404040;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-left-ul li {
+    padding: 0.55rem 0.45rem;
+    cursor: pointer;
+    border: 1px solid transparent;
+} */
+

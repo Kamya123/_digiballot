@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+    height: 4rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+}
+
+#logo {
+    font-size: 2.5rem; 
+    line-height: 1.2rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.nav-right {
+    display: flex;
+    gap: 1rem;
+}
+
